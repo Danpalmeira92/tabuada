@@ -30,6 +30,17 @@ Incremento (i += passo):
 
 Após cada iteração do laço, a variável i é incrementada pelo valor de passo. Isso faz com que o número seja aumentado conforme o valor definido para o passo (exemplo: de 2 em 2, 5 em 5, etc.).
 
+Inicialização (var i = numero):
+
+A variável i é novamente inicializada com o valor de numero, para começar a contagem.
+Condição (i >= fim && numero > fim):
+
+O laço continuará rodando enquanto a variável i for maior ou igual ao valor de fim e a condição adicional numero > fim for verdadeira.
+Isso impede que a contagem seja executada se o numero for menor ou igual ao fim (que seria o caso de uma contagem crescente).
+Decremento (i -= passo):
+
+Após cada iteração do laço, a variável i é decrementada pelo valor de passo. Assim, a contagem vai reduzindo conforme o valor definido para o passo (exemplo: de 2 em 2, 5 em 5, etc.).
+
 */
 
 // Laço para contagem crescente
