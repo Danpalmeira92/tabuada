@@ -6,6 +6,7 @@ body {
 header {
     color: white;
     text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.515);
 }
 
 section {
@@ -22,6 +23,10 @@ input {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.395);
 }
 
+.numero {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.394);
+}
+
 .button {
     background-color: rgba(rgb(161, 153, 153));
     border-radius: 10px;
@@ -33,6 +38,14 @@ input {
 
 .button:hover {
     background-color: rgb(147, 145, 148);
+}
+
+select {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.353);
+    border: none;
 }
 
 footer {
