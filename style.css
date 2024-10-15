@@ -18,17 +18,21 @@ section {
 }
 
 input {
-    border: transparent black;
+    border: transparent rgba(0, 0, 0, 0.499);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.395);
 }
 
 .button {
-    background-color: rgba(128, 0, 255, 0.563);
+    background-color: rgba(rgb(161, 153, 153));
     border-radius: 20px;
     width: 80px;
     height: 40px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.387);
     cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(147, 145, 148);
 }
 
 footer {
